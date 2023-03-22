@@ -1,0 +1,23 @@
+@use "styles/abstracts/variables" as *;
+
+.header {
+    border-bottom: 1px solid #eaeaea;
+    font-family: $primary-font;
+
+    .headerContainer {
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-inline: 20px;
+
+        .navItemsContainer {
+
+            .navItems {
+                display: flex;
+                gap: 20px;
+                list-style: none;
+            }
+        }
+    }
+}
