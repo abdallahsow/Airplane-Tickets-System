@@ -1,0 +1,11 @@
+@use "styles/abstracts/variables" as *;
+
+.main {
+    max-width: $page-max-width;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
