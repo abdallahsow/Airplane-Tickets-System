@@ -12,11 +12,24 @@
         margin-inline: 20px;
 
         .navItemsContainer {
-
             .navItems {
                 display: flex;
                 gap: 20px;
                 list-style: none;
+                padding: 0;
+
+                .navItem {
+                    height: 100px;
+                    display: flex;
+                    align-items: center;
+                    border-bottom: 5px solid transparent;
+                    cursor: pointer;
+
+                    &.active {
+                        border-bottom: 5px solid $blue;
+                        font-weight: 400;
+                    }
+                }
             }
         }
     }
