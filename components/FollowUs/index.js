@@ -4,9 +4,11 @@ import styles from "./FollowUs.module.scss";
 
 const FollowUs = () => {
   return (
-    <div className={styles.socialMedia}>
-      {socialMediaIcons.map((id, icon, alt) => (
-        <Image src={icon} alt={alt} key={id} />
+    <div className={styles.socialMediaIcons}>
+      {socialMediaIcons.map(({ id, src, alt }) => (
+        <div key={id} className={styles.socialMediaIcon}>
+          <Image src={src} alt={alt} />
+        </div>
       ))}
     </div>
   );
