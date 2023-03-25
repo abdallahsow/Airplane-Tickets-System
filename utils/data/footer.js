@@ -25,3 +25,92 @@ export const socialMediaIcons = [
     alt: "Twitter",
   },
 ];
+
+export const footerData = [
+  {
+    id: 1,
+    title: "Flight Ticket",
+    listItems: [
+      {
+        id: 1,
+        text: "Cheap Flight Ticket",
+      },
+      {
+        id: 2,
+        text: "Flights",
+      },
+      {
+        id: 3,
+        text: "Flight Destinations",
+      },
+      {
+        id: 4,
+        text: "International Flights",
+      },
+      {
+        id: 5,
+        text: "Airlines",
+      },
+      {
+        id: 6,
+        text: "Airports",
+      },
+      {
+        id: 7,
+        text: "Flight Ticket Campaigns",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Popular Airlines",
+    listItems: [
+      {
+        id: 1,
+        text: "Turkish Airlines",
+      },
+      {
+        id: 2,
+        text: "Pegasus Airlines",
+      },
+      {
+        id: 3,
+        text: "AnadoluJet",
+      },
+      {
+        id: 4,
+        text: "Emirates",
+      },
+      {
+        id: 5,
+        text: "British Airways",
+      },
+      {
+        id: 6,
+        text: "Saudi Airlines",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Help & Discover",
+    listItems: [
+      {
+        id: 1,
+        text: "Terms and Conditions",
+      },
+      {
+        id: 2,
+        text: "Privacy Policy",
+      },
+      {
+        id: 3,
+        text: "Frequently Asked Questions",
+      },
+      {
+        id: 4,
+        text: "Contact Us",
+      },
+    ],
+  },
+];
