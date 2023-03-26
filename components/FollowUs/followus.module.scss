@@ -7,4 +7,8 @@
     align-items: center;
     background-color: $dark;
     height: 80px;
+
+    .socialMediaIcon {
+        cursor: pointer;
+    }
 }
