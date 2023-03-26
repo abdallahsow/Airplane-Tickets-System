@@ -1,0 +1,35 @@
+@use "styles/abstracts/variables" as *;
+
+.faqCard {
+    width: 650px;
+    font-family: $primary-font;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+
+    .questionContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+
+        .question {
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+
+    .answer {
+        display: none;
+    }
+
+    &.showAnswer {
+        .answer {
+            display: block;
+            font-size: 14px;
+            font-weight: 300;
+            margin-top: 10px;
+        }
+    }
+}

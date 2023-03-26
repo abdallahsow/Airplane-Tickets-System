@@ -1,8 +1,9 @@
 @use "styles/abstracts/variables" as *;
 
 .main {
+    position: relative;
     max-width: $page-max-width;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex: 1;
     flex-direction: column;
