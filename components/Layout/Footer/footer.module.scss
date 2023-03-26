@@ -1,0 +1,58 @@
+@use "styles/abstracts/variables" as *;
+
+.footer {
+    font-family: $primary-font;
+    background-color: $black;
+    color: $white;
+    width: 100%;
+
+    .footerSectionTwo {
+        width: 850px;
+        margin: auto;
+
+        .footerDataContainer {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: baseline;
+            padding-bottom: 20px;
+            border-bottom: 1px solid $white;
+
+            .footerData {
+                .footerDataTitle {
+                    font-size: 20px;
+                    font-weight: 500;
+                    margin-bottom: 10px;
+                }
+
+                .footerDataList {
+                    list-style: none;
+                    padding: 0;
+
+                    .footerDataListItem {
+                        font-size: 14px;
+                        font-weight: 300;
+                        margin-bottom: 5px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+        .footerExtraDetails {
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+
+            .paymentMethods {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+            }
+
+            .footerExtraDetails {
+                font-size: 14px;
+                font-weight: 300;
+            }
+        }
+    }
+}

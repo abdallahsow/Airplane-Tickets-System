@@ -3,6 +3,12 @@ import LinkedIn from "public/images/socialMedia/linkedin.svg";
 import Instagram from "public/images/socialMedia/instagram.svg";
 import Twitter from "public/images/socialMedia/twitter.svg";
 
+import Visa from "public/images/payment/visa.svg";
+import MasterCard from "public/images/payment/master-card.svg";
+import Stripe from "public/images/payment/stripe.svg";
+import Iyzico from "public/images/payment/iyzico.svg";
+import AmericanExpress from "public/images/payment/american-express.svg";
+
 export const socialMediaIcons = [
   {
     id: 1,
@@ -112,5 +118,33 @@ export const footerData = [
         text: "Contact Us",
       },
     ],
+  },
+];
+
+export const paymentMethods = [
+  {
+    id: 1,
+    src: Visa,
+    alt: "Visa",
+  },
+  {
+    id: 2,
+    src: MasterCard,
+    alt: "MasterCard",
+  },
+  {
+    id: 3,
+    src: Stripe,
+    alt: "Stripe",
+  },
+  {
+    id: 4,
+    src: Iyzico,
+    alt: "Iyzico",
+  },
+  {
+    id: 5,
+    src: AmericanExpress,
+    alt: "American Express",
   },
 ];
