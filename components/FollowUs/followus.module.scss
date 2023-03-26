@@ -1,0 +1,14 @@
+@use "styles/abstracts/variables" as *;
+
+.socialMediaIcons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: $dark;
+    height: 80px;
+
+    .socialMediaIcon {
+        cursor: pointer;
+    }
+}
