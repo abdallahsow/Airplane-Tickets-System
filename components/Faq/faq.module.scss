@@ -1,0 +1,15 @@
+@use "styles/abstracts/variables" as *;
+
+.faq {
+    font-family: $primary-font;
+
+    .faqTitle {
+        font-size: 40px;
+        font-weight: 600;
+        margin-bottom: 20px
+    }
+
+    .faqCardContainer {
+        margin-bottom: 10px;
+    }
+}
