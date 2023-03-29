@@ -1,3 +1,8 @@
+import Support from "public/images/hero/live-support.svg";
+import SecurePayment from "public/images/hero/secure-payment.svg";
+import Booking from "public/images/hero/successful-booking.svg";
+import Visitors from "public/images/hero/visitors.svg";
+
 export const faqData = [
   {
     id: 1,
@@ -60,5 +65,36 @@ Travel outside of peak season.`,
     id: 7,
     question: "What is a flight ticket PNR enquiry?",
     answer: `You can check your ticket with “PNR”, which means “Passenger Name Record” and you can quickly query all flight details by entering name or surname information. The PNR code is sent to you via message or e-mail after purchase. You can perform your transactions with the PNR code at https://www.ucuzabilet.com/pnr-sorgulama.`,
+  },
+];
+
+export const promoCardData = [
+  {
+    id: 1,
+    src: Visitors,
+    alt: "Visitors",
+    title: "More Than 25 Million Monthly Visitors",
+    text: "Thanks to its easy-to-use and secure payment infrastructure where you can compare hundreds of flights, obilet.com serves millions of users every month.",
+  },
+  {
+    id: 2,
+    src: Booking,
+    alt: "Booking",
+    title: "Book Your Ticket in 2 Minutes",
+    text: "Creating the opportunity to compare numerous companies with its easy-to-use and secure payment infrastructure, obilet enables everyone to find a flight ticket suitable for their budget in 2 minutes.",
+  },
+  {
+    id: 3,
+    src: SecurePayment,
+    alt: "Secure Payment",
+    title: "Secure Payment",
+    text: "You can make all your flight ticket purchases easily, quickly, and reliably from your home, office, or with your mobile phone.",
+  },
+  {
+    id: 4,
+    src: Support,
+    alt: "Live Support",
+    title: "24/7 Live Support",
+    text: "Our customer service team is ready to support you 24/7 for all transactions you make through obilet.com and obilet Mobile Applications. You can start Live Support with one click and get help.",
   },
 ];
