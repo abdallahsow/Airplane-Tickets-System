@@ -2,6 +2,10 @@
 
 .faq {
     font-family: $primary-font;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     .faqTitle {
         font-size: 40px;
