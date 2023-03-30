@@ -1,33 +1,12 @@
 import { useState } from "react";
 import Image from "next/image";
+import { navigationData } from "utils/data/header";
 import DERMX360 from "images/derm-logo.png";
 import styles from "./header.module.scss";
 import classNames from "classnames";
 
 export default function Header() {
   const [tabId, setTabId] = useState(false);
-  const navigationData = [
-    {
-      id: 1,
-      name: "Plan & Book",
-    },
-    {
-      id: 2,
-      name: "Discover",
-    },
-    {
-      id: 3,
-      name: "Help",
-    },
-    {
-      id: 4,
-      name: "Sign Up",
-    },
-    {
-      id: 5,
-      name: "Sign In",
-    },
-  ];
 
   const handleActiveTab = (id) => {
     setTabId(id);
