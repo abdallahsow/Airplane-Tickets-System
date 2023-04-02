@@ -3,12 +3,11 @@
 .main {
     position: relative;
     max-width: $page-max-width;
-    margin: auto;
+    margin: 0 auto;
     min-height: 100vh;
     display: flex;
-    flex: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    font-family: $primary-font;
 }

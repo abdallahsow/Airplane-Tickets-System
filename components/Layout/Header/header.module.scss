@@ -3,6 +3,7 @@
 .header {
     border-bottom: 1px solid #eaeaea;
     font-family: $primary-font;
+    background-color: $dark;
 
     .headerContainer {
         height: 100px;
@@ -10,6 +11,7 @@
         justify-content: space-between;
         align-items: center;
         margin-inline: 20px;
+        color: $white;
 
         .navItemsContainer {
             .navItems {
