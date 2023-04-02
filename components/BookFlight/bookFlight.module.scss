@@ -30,9 +30,19 @@
             }
         }
 
-        .temporary {
-            background-color: #fff;
+        .bookFlightContent {
+            background-color: $white;
+            padding: 25px;
             height: 100%;
+
+            .radioGroup {
+                :global(:where(.css-dev-only-do-not-override-1e3x2xa) .ant-radio-wrapper span.ant-radio + *) {
+                    font-family: $primary-font;
+                    font-weight: 400;
+                }
+
+                margin-bottom: 30px;
+            }
         }
     }
 }
