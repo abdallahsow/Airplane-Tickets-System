@@ -3,6 +3,21 @@ import SecurePayment from "public/images/hero/secure-payment.svg";
 import Booking from "public/images/hero/successful-booking.svg";
 import Visitors from "public/images/hero/visitors.svg";
 
+export const tabs = [
+  {
+    id: 1,
+    title: "Flight",
+  },
+  {
+    id: 2,
+    title: "Check-in / Manage booking",
+  },
+  {
+    id: 3,
+    title: "Flight Status",
+  },
+];
+
 export const faqData = [
   {
     id: 1,

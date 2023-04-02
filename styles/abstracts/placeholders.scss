@@ -1,0 +1,18 @@
+%custom-scroll-bar {
+    overflow-y: auto;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: thin;
+    scrollbar-color: #d7d4d6 #fff;
+    resize: none;
+
+    &::-webkit-scrollbar {
+        width: 4px;
+        height: 4px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: #4096ff;
+    }
+}
