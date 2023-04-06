@@ -1,4 +1,5 @@
 @use "styles/abstracts/placeholders" as *;
+@use "styles/abstracts/variables" as *;
 
 .roundtrip {
     position: relative;
@@ -13,6 +14,7 @@
         width: 225px;
         height: 175px;
         position: absolute;
+        background-color: $white;
         box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
         left: 0;
         top: 35px;

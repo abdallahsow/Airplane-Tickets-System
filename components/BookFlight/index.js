@@ -48,7 +48,6 @@ export default function BookFlight() {
       );
       break;
   }
-  console.log({ component });
 
   return (
     <div style={backgroundImgs} className={styles.bookFlightBoxContainer}>
